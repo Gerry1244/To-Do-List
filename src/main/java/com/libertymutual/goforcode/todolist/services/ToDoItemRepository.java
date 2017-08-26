@@ -159,7 +159,7 @@ public class ToDoItemRepository {
 		}
 
 		try {
-			//this line indicates the fileWriter is writing the list of items to the file.
+			//this line indicates the fileWriter is writing the list of items to the file..
 			FileWriter wrt = new FileWriter("To-do-list.csv");
 			
 			CSVPrinter printer = CSVFormat.DEFAULT.print(wrt);
